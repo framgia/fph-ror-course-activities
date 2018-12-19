@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.center-media {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ccf2ff;
+    height: 500px;
+}
+
+.image-content {
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 5px 15px;
+}
+
+header a:hover {
+    color: cyan;
+}
+
+header {
+    background-color: #66d9ff;
+    padding: 1px;
+}
+
+a .nav-header {
+    color: white;
+    text-decoration: none;
+}
+
+.center {
+    text-align: center
+}
+
+.container {
+    width: 700px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.fav-content {
+    padding: 10px;
+}
+
+.center-content {
+    line-height: 40px;
+}
+
+footer {
+    background-color: #80dfff;
+    padding: 15px;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.fav-list-movies {
+    display: inline-block;
+    background-color: aquamarine;
+    width: 400px;
+}
+
+.fav-list-food {
+    display: inline-block;
+    background-color: cyan;
+    width:400px;
+}
+
+.left {
+    text-align: left;
+}
+
+.no-style {
+    list-style: none;
+    margin-top: 0;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.media {
+    margin: 10px 20px;
+}
