@@ -1,0 +1,15 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.media .profile {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 1px solid #ddd;
+	overflow: hidden;
+}
+
+.media .profile img {
+	width: 100%;
+}
