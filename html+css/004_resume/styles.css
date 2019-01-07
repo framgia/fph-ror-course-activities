@@ -1,0 +1,76 @@
+body {
+    background-color: #0e0d1d;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+header .header-content {
+    color: white;
+    display: inline-block;
+    font-size: 30px;
+    text-align: left;
+}
+
+.profile-image {
+    height: 250;
+    width: 250;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+
+.side-content {
+    background-color: antiquewhite;
+    width: 600px;
+    text-align: right;
+    float: left;
+}
+
+.main-content {
+    background-color: white;
+    width: 835px;
+    float: right;
+}
+
+.content-title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.side-content ul {
+    list-style-type: none;
+    font-size: 20;
+}
+
+.side-skills {
+    margin-right: 30px;
+}
+.side-education {
+    margin-right: 30px;
+}
+
+
+.main-profile {
+    margin-left: 30px;
+}
+
+.education-list {
+    padding: 10px 0;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    display: block;
+}
+
+.content-profile {
+    line-height: 25px;
+    font-size: 20px;
+    text-align: left;
+    margin-right: 20px;
+}
