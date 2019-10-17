@@ -22,3 +22,9 @@ end
 box1 = Box.new(100, 500, 200)
 box1.display
 puts box1.area
+
+puts
+
+box2 = Box.new(200, 500, 200)
+box2.display
+puts box2.area
