@@ -1,0 +1,37 @@
+<% provide(:title, "Home") %>
+<% if logged_in? %>
+    <div class="row">
+        <%# User Info w/ CREATE Micropost section %>
+        <aside class="col-md-4">
+            <%# User Info %>
+            <section class="user_info">
+                <%= render "shared/user_info" %>
+            </section>
+            <%# Followers and Following %>
+            <section class="stats">
+                <%= render 'shared/stats' %>
+            </section>
+            <%# Micropost form %>
+            <section class="micropost_form">
+                <%= render "shared/micropost_form" %>
+            </section>
+        </aside>
+
+        <%# Micropost feed of all users %>
+        <div class="col-md-8">
+            <h3>Micropost Feed</h3>
+            <%= render "shared/feed" %>
+        </div>
+    </div>
+<% else %>
+    <div class="center jumbotron">
+        <img src="assets/pidgeot.gif" class="mb-4">
+        <h1>Welcome to Awesome Blog</h1>
+        <h2>
+        	This is the home page for the
+            <a href="https://twitter.com/AwesomeArsAcad">Awesome Ars Academia</a>
+            Twitter clone!
+        </h2>
+        <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary mt-4" %>
+    </div>
+<% end %>
